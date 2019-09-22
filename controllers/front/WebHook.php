@@ -1,9 +1,5 @@
 <?php
 
-use Symfony\Component\Security\Core\Exception\AccessDeniedException;
-
-require_once(_PS_MODULE_DIR_ . 'attools/classes/UrbantzTasksModel.php');
-
 class FgorderstateWebHookModuleFrontController extends ModuleFrontController
 {
 
