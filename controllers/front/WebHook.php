@@ -2,11 +2,7 @@
 
 class FgorderstateWebHookModuleFrontController extends ModuleFrontController
 {
-
-    /**
-     * Urbantz Webhook entrypoint
-     * @inheritDoc
-     */
+    
     public function postProcess()
     {
         try {
