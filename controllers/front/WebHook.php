@@ -1,8 +1,8 @@
 <?php
 
-class FgorderstateWebHookModuleFrontController extends ModuleFrontController
+class FGOrderStateWebHookModuleFrontController extends ModuleFrontController
 {
-    
+
     public function postProcess()
     {
         try {
