@@ -56,4 +56,10 @@ class fgorderstate extends Module
 
         return true;
     }
+
+    public function getContent()
+    {
+        $link = Context::getContext()->link->getModuleLink('fgorderstate', 'webhook',['order_id' => 5, 'token' => 'abracadabra', 'method' => 'task_status_change']);
+        return '<a href="' . $link . '"> ' . $link . '</a>';
+    }
 }
